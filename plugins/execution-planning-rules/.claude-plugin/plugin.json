@@ -1,0 +1,9 @@
+{
+  "name": "execution-planning-rules",
+  "version": "1.0.0",
+  "description": "每個 session 開始時載入兩條工作規則：階段開始前先評估執行方式；列出選項或決定時用表格。",
+  "author": {
+    "name": "zyzdev"
+  },
+  "repository": "https://github.com/zyzdev/claude-rules"
+}

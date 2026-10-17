@@ -1,0 +1,14 @@
+{
+  "name": "zyzdev-rules",
+  "description": "zyzdev 的 Claude Code 工作規則",
+  "owner": {
+    "name": "zyzdev"
+  },
+  "plugins": [
+    {
+      "name": "execution-planning-rules",
+      "source": "./plugins/execution-planning-rules",
+      "description": "每個 session 開始時載入兩條工作規則：階段開始前先評估執行方式；列出選項或決定時用表格。"
+    }
+  ]
+}
